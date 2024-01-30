@@ -30,3 +30,23 @@ git pull origin main
 ```
 git push origin main
 ```
+### Comando básico Linux
+
+```
+ls
+cd
+cd..
+mkdir
+cat
+history
+rm -r
+cp caminho_origem caminho_destino
+mv caminho_origem caminho_destino
+touch teste.txt
+
+```
+
+### Editor de código
+
+ - VScode
+ - Google Colab
