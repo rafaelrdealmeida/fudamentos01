@@ -50,3 +50,31 @@ touch teste.txt
 
  - VScode
  - Google Colab
+
+ ### Ambiente Virtual
+
+ - Conda e Poetry são os dois principais software de gerenciamento de ambiente viretual em python. Utilizaremos o `conda`
+
+ ## Configuração inicial do conda
+
+ - [Configuração da primeira utilização](https://labriunesp.org/docs/projetos/ensino/trilha-dados/ambiente/ambiente-virtual#instru%C3%A7%C3%B5es-para-primeira-utiliza%C3%A7%C3%A3o)
+
+ ### Criar ambiente virtual conda 
+
+ ```
+conda env create -f environment.yml 
+ ```
+
+ ### Ativar ambiente virtual
+
+ ```
+ conda activate nome_ambiente (no meu caso será fundamentos_terca)
+ ```
+
+### Atualizar bibliotecas do ambiente
+
+- ativar ambiente e rodar o comando abaixo:
+
+```
+conda env update --prune
+```

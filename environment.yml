@@ -1,0 +1,12 @@
+name: fundamentos_terca
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - beautifulsoup4
+  - requests
+  - selenium
+  - geckodriver
+  - pandas
+  - matplotlib
