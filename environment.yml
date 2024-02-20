@@ -10,3 +10,4 @@ dependencies:
   - geckodriver
   - pandas
   - matplotlib
+  - webdriver-manager

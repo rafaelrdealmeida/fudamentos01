@@ -16,12 +16,13 @@ def extrair_infos():
     link = "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/notas-a-imprensa"
     pagina = acessar_pagina(link)
     # div id="content-core"
-    notas_imprensa = pagina.find("div", attrs={"id":"content-core"}).find_all("article")
+    notas_imprensa = pagina.find("div", attrs={"id":"content-core"}).find_all("article") 
     # print(notas_imprensa)
     for nota_imprensa in notas_imprensa:
         titulo = nota_imprensa.find('h2').text.strip()
         print(titulo)
         print("###")
+    print("fim do loop for")
 
 
     
