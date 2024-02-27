@@ -7,7 +7,7 @@ dependencies:
   - beautifulsoup4
   - requests
   - selenium
-  - geckodriver
   - pandas
   - matplotlib
   - webdriver-manager
+
