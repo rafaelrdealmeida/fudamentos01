@@ -10,4 +10,5 @@ dependencies:
   - pandas
   - matplotlib
   - webdriver-manager
+  - tinydb
 
